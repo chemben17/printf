@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _printf - produces output according to a format
+ * _printf - It produces output according to a format
  * @format: format string containing the characters and the specifie
  * Description: this function will call the get_print() function that will
  * determine which printing function to call depending on the conversio

@@ -21,13 +21,13 @@ typedef struct flags
 /**
  * struct printHandler - struct to choose the right function depending
  * on the format specifier passed to _printf()
- * @c: format specifier
- * @f: pointer to the correct printing function
+ * @c: format specifier.
+ * @f: pointer to the correct printing function.
  */
 typedef struct printHandler
 {
-    char c;
-    int (*f)(va_list ap, flags_t *f);
+	char c;
+	int (*f)(va_list ap, flags_t *f);
 } ph;
 
 /* print_nums */
