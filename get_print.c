@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * get_print - selects the right printing function
+ * get_print - selects the right printing
  * depending on the conversion specifier passed to _printf
- * @s: character that holds the conversion specifier
- * Description: the function loops through the structs array
+ * @s: character that holds the conversion speci
+ * Description: the function loops through the structs a
  * func_arr[] to find a match between the specifier passed to _printf
  * and the first element of the struct, and then the approriate
  * printing function
